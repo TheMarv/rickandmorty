@@ -1,0 +1,41 @@
+@font-face {
+  font-family: rickAndMortyFonts;
+  src: url('/styles/get_schwifty.ttf');
+}
+
+h1 {
+  font-family: rickAndMortyFonts;
+  color: rgb(44, 169, 167);
+  text-shadow: 1px 2px 3px yellow;
+}
+
+.header1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(234, 149, 14);
+}
+
+.header_rickAndMorty {
+  text-align: center;
+}
+
+.navbar__main {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1.5rem;
+  background-color: rgb(234, 149, 14);
+}
+
+.navbar__text {
+  font-family: rickAndMortyFonts;
+  font-size: 1.8rem;
+  color: rgb(44, 169, 167);
+  text-shadow: 1px 2px 3px yellow;
+  text-decoration: none;
+}
