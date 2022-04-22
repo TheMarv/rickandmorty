@@ -1,7 +1,40 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif;
+:root {
+  --font-family: 'Comfortaa', sans-serif;
+  --default-text-color: rgb(35, 32, 32);
+
+  --frame-color: lightblue;
+  --background-color: rgb(213, 233, 213);
+  --card-color: var(--frame-color);
+  --button-color: rgb(237, 193, 18);
+  --tag-color: rgb(145, 197, 215);
+
+  --boxshadow-grey: 0px 2px 5px rgba(25, 50, 81, 0.2);
 }
+
+html {
+  font-size: 16px;
+  font-family: var(--font-family);
+  color: var(--default-text-color);
+}
+
+html,
+body,
+main {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  background-image: url('/images/rickAndMortyBackground.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*---------------------------------------------------------*/
