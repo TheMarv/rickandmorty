@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/base.css" />
     <link rel="stylesheet" href="/components/charactercard/charactercard.css" />
+    <script src="/scripts/charactercards.js" defer></script>
     <title>Character Card</title>
   </head>
   <body>
-    <section id="characters">
-      <figure class="character__icon">
+    <section id="characters" data-js="characters">
+      <figure class="character__card" data-js="character__card">
         <img
           src="https://rickandmortyapi.com/api/character/avatar/143.jpeg"
           alt="variable"
