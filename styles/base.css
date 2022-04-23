@@ -7,6 +7,7 @@
 :root {
   --font-family: 'Josefin Sans', sans-serif;
   --default-text-color: rgb(35, 32, 32);
+  --ricky-and-morty-text-color: rgb(44, 169, 167);
 
   --frame-color: lightblue;
   --background-color: rgb(213, 233, 213);
