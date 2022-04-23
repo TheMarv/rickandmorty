@@ -1,9 +1,24 @@
 function fetchCharacterCardData() {
-  fetch('https://rickandmortyapi.com/api/character')
+  fetch(`https://rickandmortyapi.com/api/character/${getRandomID()}`)
     .then(response => response.json())
     .then(data => {
-      console.log(data.results[0].name);
+      console.log(data[0].name);
+
+      const card = document.querySelector('[data-js="character__card"]');
+      card.innerHTML = `
+<img
+          src="${data[0].image}"
+          alt="variable"
+        />
+        <figcaption>${data[0].name}</figcaption>
+`;
     });
+}
+
+function getRandomID(quantity = 8) {
+  return new Array(quantity)
+    .fill(0)
+    .map(() => Math.floor(Math.random() * (826 - 1) + 1));
 }
 
 fetchCharacterCardData();
