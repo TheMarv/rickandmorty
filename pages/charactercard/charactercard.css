@@ -1,3 +1,8 @@
+.character__figures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .character__card {
   max-width: 14rem;
   background-color: red;
