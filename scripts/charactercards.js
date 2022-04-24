@@ -1,4 +1,4 @@
-const characterFigures = document.querySelector('[data-js=characters]');
+const characterFigures = document.querySelector('[data-js="characters"]');
 
 function fetchCharacterCardData() {
   fetch(`https://rickandmortyapi.com/api/character/${getRandomID()}`)
