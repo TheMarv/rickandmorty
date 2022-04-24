@@ -21,7 +21,7 @@
 html {
   font-size: 16px;
   font-family: var(--font-family);
-  color: var(--default-text-color);
+  color: var(--ricky-and-morty-text-color);
 }
 
 html,
