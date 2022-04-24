@@ -4,4 +4,10 @@
 
 @import '../components/Button.css';
 @import './headerAndNavbar.css';
+
 @import '../pages/charactercard/charactercard.css';
+@import '../pages/characterDetails/characterDetails.css';
+@import '../pages/episodeDetails/episodeDetails.css';
+@import '../pages/episodes/episodes.css';
+@import '../pages/locationDetails/locationDetails.css';
+@import '../pages/locations/locations.css';

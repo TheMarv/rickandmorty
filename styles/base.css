@@ -39,4 +39,8 @@ main {
   padding: 5rem 1rem;
 }
 
+section[hidden] {
+  display: none;
+}
+
 /*---------------------------------------------------------*/
