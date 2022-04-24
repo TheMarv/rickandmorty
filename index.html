@@ -12,7 +12,6 @@
     />
     <link rel="stylesheet" href="./styles/index.css" />
     <script type="module" defer src="./index.js"></script>
-    <script type="module" defer src="./scripts/charactercards.js "></script>
 
     <title>Rick and Morty Home</title>
   </head>
@@ -22,11 +21,29 @@
     </header>
     <main>
       <section class="character__figures" data-js="characters"></section>
+      <!-- Location -->
+      <section class="locations" data-js="locations" hidden></section>
+      <section class="locationdetails" data-js="locationdetails" hidden>
+        <h2></h2>
+        <h5 data-js="locationType"></h5>
+        <h5 data-js="locationDimension"></h5>
+        <h3></h3>
+        <div class="residentlist" data-js="residentList"></div>
+      </section>
+      <!-- Episodes -->
+      <section class="episodes" data-js="episodes" hidden></section>
+      <section class="episodedetails" data-js="episodeDetails" hidden>
+        <h2></h2>
+        <h5 data-js="episodeType"></h5>
+        <h5 data-js="episodeDimension"></h5>
+        <h3></h3>
+        <div class="characterlist" data-js="characterList"></div>
+      </section>
     </main>
     <nav class="navbar__main">
-      <a class="navbar__text" href="">Character</a>
-      <a class="navbar__text" href="">Location</a>
-      <a class="navbar__text" href="">Episode</a>
+      <a class="navbar__text" data-js="navCharacter">Character</a>
+      <a class="navbar__text" data-js="navLocation">Location</a>
+      <a class="navbar__text" data-js="navEpisode">Episode</a>
     </nav>
   </body>
 </html>

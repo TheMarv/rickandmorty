@@ -1,5 +1,4 @@
-import Button from './components/Button.js';
-
-const buttons = document.querySelectorAll('[data-js=Button]');
-
-buttons.forEach(Button);
+import './scripts/locations.js';
+import './scripts/episodes.js';
+import './scripts/charactercards.js';
+import './scripts/navigation.js';
