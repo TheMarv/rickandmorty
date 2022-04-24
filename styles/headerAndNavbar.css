@@ -5,7 +5,7 @@
 
 h1 {
   font-family: rickAndMortyFonts;
-  color: rgb(44, 169, 167);
+  color: var(--ricky-and-morty-text-color);
   text-shadow: 1px 2px 3px yellow;
 }
 

@@ -1,4 +1,24 @@
 .character__details {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 8rem 1rem;
+}
+
+.character__details--frame {
+  max-width: 80rem;
+  background-color: black;
+  color: var(--ricky-and-morty-text-color);
+  margin: 8rem auto;
+  border-radius: 5px;
+  box-shadow: var(--boxshadow-grey);
+}
+
+.character__details img {
+  float: left;
+  max-width: 50%;
+  margin: 0 2rem 1.5rem 0;
+}
+
+.character__details-text {
+  padding: 1.5rem;
 }

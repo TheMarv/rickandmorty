@@ -7,6 +7,7 @@
 :root {
   --font-family: 'Josefin Sans', sans-serif;
   --default-text-color: rgb(35, 32, 32);
+  --ricky-and-morty-text-color: rgb(44, 169, 167);
 
   --frame-color: lightblue;
   --background-color: rgb(213, 233, 213);
@@ -14,7 +15,7 @@
   --button-color: rgb(237, 193, 18);
   --tag-color: rgb(145, 197, 215);
 
-  --boxshadow-grey: 0px 2px 5px rgba(25, 50, 81, 0.2);
+  --boxshadow-grey: 0px 2px 5px rgba(25, 50, 81, 0.5);
 }
 
 html {
