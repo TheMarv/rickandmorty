@@ -1,0 +1,26 @@
+.locations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+
+.locations h2 {
+  text-align: center;
+}
+
+.location {
+  padding: 0.75rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.location h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.location p {
+  margin: 0;
+}
