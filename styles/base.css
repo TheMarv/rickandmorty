@@ -15,7 +15,7 @@
   --button-color: rgb(237, 193, 18);
   --tag-color: rgb(145, 197, 215);
 
-  --boxshadow-grey: 0px 2px 5px rgba(25, 50, 81, 0.2);
+  --boxshadow-grey: 0px 2px 5px rgba(25, 50, 81, 0.5);
 }
 
 html {
