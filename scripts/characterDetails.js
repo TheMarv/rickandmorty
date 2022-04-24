@@ -24,9 +24,6 @@ function fetchCharaterDetails(id = 10) {
             <h4>Origin: ${data.origin.name}</h4>
             <p>${data.type}</p>
             <p>Last seen in ${data.location.name}</p>
-            
-            
-        
             `;
       charDetailsSection.append(charDetailsElem);
     });
