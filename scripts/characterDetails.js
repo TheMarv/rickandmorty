@@ -18,11 +18,15 @@ function fetchCharaterDetails(id = 10) {
           />
           <div class="character__details-text">
             <h2>${data.name}</h2>
-            <h3>Gender: §{data.gender}</h3>
-            <h3>Origin: §{data.origin.name}</h3>
-            <h3>Last location: ${data.location.name}</h3>
-            
             <h3>First appeared in episode ${episodeNum}</h3>
+            <h3>Gender: ${data.gender}</h3>
+            <h3>Species: ${data.species}</h3>
+            <h4>Origin: ${data.origin.name}</h4>
+            <p>${data.type}</p>
+            <p>Last seen in ${data.location.name}</p>
+            
+            
+        
             `;
       charDetailsSection.append(charDetailsElem);
     });
