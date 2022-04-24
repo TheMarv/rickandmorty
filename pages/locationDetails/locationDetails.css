@@ -1,0 +1,28 @@
+.residentlist {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.charactercard {
+  display: flex;
+  border-radius: 5px;
+  background-color: gray;
+  height: 12rem;
+}
+
+.charactercard img {
+  width: 12rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.charactercard__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.charactercard__details h2 {
+  margin: 0;
+}
