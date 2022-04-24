@@ -1,14 +1,12 @@
 .character__details {
-  /* display: flex;
-  flex-direction: column; */
-  margin: 8rem 1rem;
+  margin: 1rem 1rem;
 }
 
 .character__details--frame {
   max-width: 80rem;
   background-color: black;
   color: var(--ricky-and-morty-text-color);
-  margin: 8rem auto;
+  margin: 1rem auto;
   border-radius: 5px;
   box-shadow: var(--boxshadow-grey);
 }
