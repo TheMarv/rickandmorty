@@ -2,7 +2,7 @@ const charDetailsSection = document.querySelector(
   '[data-js="character__details"]'
 );
 
-function fetchCharaterDetails(id = 10) {
+export default function fetchCharaterDetails(id = 10) {
   fetch(`https://rickandmortyapi.com/api/character/${id}`)
     .then(response => response.json())
     .then(data => {
