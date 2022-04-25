@@ -7,6 +7,7 @@
 .character__card {
   max-width: 20rem;
   background-color: black;
+  cursor: pointer;
 }
 
 .character__card img {
