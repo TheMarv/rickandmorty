@@ -1,3 +1,5 @@
+// import fetchCharaterDetails from './characterDetails.js';
+
 const characterFigures = document.querySelector('[data-js="characters"]');
 
 function fetchCharacterCardData() {
@@ -22,11 +24,20 @@ function createCharacterFigure(character) {
   alt="variable"/>
 <figcaption>${character.name}</figcaption>`;
 
-  /*element.addEventListener('click', () => {
-  element.('hidden');
-})
-*/
   characterFigures.append(element);
 }
 
 fetchCharacterCardData();
+
+function showCharacterDetails() {
+  const cards = document.querySelectorAll('.character__card');
+  cards.forEach(card => {
+    card.addEventListener('click', event => {
+      console.log(event.target);
+
+      // fetchCharaterDetails(id))
+    });
+  });
+}
+
+showCharacterDetails();
