@@ -38,4 +38,5 @@ h1 {
   color: rgb(44, 169, 167);
   text-shadow: 1px 2px 3px yellow;
   text-decoration: none;
+  cursor: pointer;
 }
