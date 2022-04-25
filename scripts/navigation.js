@@ -3,6 +3,7 @@ const navLocation = document.querySelector('[data-js="navLocation"]');
 const navEpisode = document.querySelector('[data-js="navEpisode"]');
 export const sections = [
   document.querySelector('[data-js="characters"]'),
+  document.querySelector('[data-js="character__details"]'),
   document.querySelector('[data-js="locations"]'),
   document.querySelector('[data-js="locationdetails"]'),
   document.querySelector('[data-js="episodes"]'),

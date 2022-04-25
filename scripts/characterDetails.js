@@ -6,7 +6,7 @@ export default function fetchCharaterDetails(id = 10) {
   fetch(`https://rickandmortyapi.com/api/character/${id}`)
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      charDetailsSection.innerHTML = '';
       const episodeNum = data.episode[0].split('/').pop();
 
       const charDetailsElem = document.createElement('div');
@@ -28,5 +28,3 @@ export default function fetchCharaterDetails(id = 10) {
       charDetailsSection.append(charDetailsElem);
     });
 }
-
-fetchCharaterDetails();
