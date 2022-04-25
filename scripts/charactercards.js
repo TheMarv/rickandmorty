@@ -1,4 +1,5 @@
-// import fetchCharaterDetails from './characterDetails.js';
+import fetchCharaterDetails from './characterDetails.js';
+import { showSection } from './navigation.js';
 
 const characterFigures = document.querySelector('[data-js="characters"]');
 
@@ -24,20 +25,11 @@ function createCharacterFigure(character) {
   alt="variable"/>
 <figcaption>${character.name}</figcaption>`;
 
+  element.addEventListener('click', () => {
+    fetchCharaterDetails(character.id);
+    showSection(1);
+  });
   characterFigures.append(element);
 }
 
 fetchCharacterCardData();
-
-function showCharacterDetails() {
-  const cards = document.querySelectorAll('.character__card');
-  cards.forEach(card => {
-    card.addEventListener('click', event => {
-      console.log(event.target);
-
-      // fetchCharaterDetails(id))
-    });
-  });
-}
-
-showCharacterDetails();
