@@ -16,6 +16,7 @@ export function fetchEpisodeDetails(id = 1) {
   fetch(`https://rickandmortyapi.com/api/episode/${id}`)
     .then(response => response.json())
     .then(({ name, episode, air_date, characters }) => {
+      episodeDetailContainer.innerHTML = '';
       episodeDetailName.textContent = name;
       episodeDetailType.textContent = `Episode: ${episode}`;
       episodeDetailDimension.textContent = `Air Date: ${air_date}`;
