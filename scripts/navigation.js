@@ -15,5 +15,5 @@ export function showSection(index) {
 }
 
 navCharacter.addEventListener('click', () => showSection(0));
-navLocation.addEventListener('click', () => showSection(1));
-navEpisode.addEventListener('click', () => showSection(3));
+navLocation.addEventListener('click', () => showSection(2));
+navEpisode.addEventListener('click', () => showSection(4));
