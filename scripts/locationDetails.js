@@ -16,6 +16,7 @@ export function fetchLocationDetails(id = 1) {
   fetch(`https://rickandmortyapi.com/api/location/${id}`)
     .then(response => response.json())
     .then(data => {
+      locationDetailContainer.innerHTML = '';
       locationDetailName.textContent = data.name;
       locationDetailType.textContent = `Type: ${data.type}`;
       locationDetailDimension.textContent = `Dimension: ${data.dimension}`;
